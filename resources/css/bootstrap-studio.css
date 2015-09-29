@@ -155,3 +155,7 @@ fieldset[disabled] .btn-clear.active {
   background-color: #DE492F;
   color:#fff;
 }
+.navbar-primary a
+{
+  color:#fff;
+}
