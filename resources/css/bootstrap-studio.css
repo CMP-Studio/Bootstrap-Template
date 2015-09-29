@@ -148,3 +148,9 @@ fieldset[disabled] .btn-clear.active {
 .btn-clear .badge {
   color: transparent;
 }
+
+/* Navbars */
+.navbar-primary
+{
+  background-color: #DE492F;
+}
