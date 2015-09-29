@@ -1,7 +1,8 @@
 /* Main tag overrides */
 body
 {
-  background-color: rgb(232,232,232);
+/*  background-color: rgb(232,232,232); */
+  background-color: #1C1C1C;
 }
 a
 {
@@ -17,4 +18,12 @@ ol
 {
   margin-top: 0;
   margin-bottom: 2em;
+}
+
+/* Button Colors and Clear Button */
+.btn-primary
+{
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
 }
