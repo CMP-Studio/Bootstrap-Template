@@ -20,7 +20,7 @@ ol
   margin-bottom: 2em;
 }
 
-/* Button Colors and Clear Button */
+/* Button Colors */
 
 /* Change primary to Orange */
 .btn-primary {
@@ -84,4 +84,67 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary .badge {
   color: #DE492F;
   background-color: #fff;
+}
+
+/* Button Clear */
+
+.btn-clear {
+  background-color: transparent;
+  border-color: #CCC;
+}
+.btn-clear:focus,
+.btn-clear.focus {
+
+  background-color: rgba(0,0,0,0.3);
+  border-color: #CCC;
+}
+.btn-clear:hover {
+
+  background-color: rgba(0,0,0,0.3);
+  border-color: #CCC;
+}
+.btn-clear:active,
+.btn-clear.active,
+.open > .dropdown-toggle.btn-clear {
+
+  background-color: rgba(0,0,0,0.3);
+  border-color: #CCC;
+}
+.btn-clear:active:hover,
+.btn-clear.active:hover,
+.open > .dropdown-toggle.btn-clear:hover,
+.btn-clear:active:focus,
+.btn-clear.active:focus,
+.open > .dropdown-toggle.btn-clear:focus,
+.btn-clear:active.focus,
+.btn-clear.active.focus,
+.open > .dropdown-toggle.btn-clear.focus {
+
+  background-color: rgba(0,0,0,0.5);
+  border-color: #CCC;
+}
+
+.btn-clear.disabled,
+.btn-clear[disabled],
+fieldset[disabled] .btn-clear,
+.btn-clear.disabled:hover,
+.btn-clear[disabled]:hover,
+fieldset[disabled] .btn-clear:hover,
+.btn-clear.disabled:focus,
+.btn-clear[disabled]:focus,
+fieldset[disabled] .btn-clear:focus,
+.btn-clear.disabled.focus,
+.btn-clear[disabled].focus,
+fieldset[disabled] .btn-clear.focus,
+.btn-clear.disabled:active,
+.btn-clear[disabled]:active,
+fieldset[disabled] .btn-clear:active,
+.btn-clear.disabled.active,
+.btn-clear[disabled].active,
+fieldset[disabled] .btn-clear.active {
+  background-color: transparent;
+  border-color: #CCC;
+}
+.btn-clear .badge {
+  color: transparent;
 }
