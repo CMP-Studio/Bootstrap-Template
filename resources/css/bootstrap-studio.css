@@ -1,0 +1,20 @@
+/* Main tag overrides */
+body
+{
+  background-color: rgb(232,232,232);
+}
+a
+{
+  color: #1f496e
+}
+p{
+  line-height:22px;
+  font-size: 14px;
+  text-indent:0;
+  margin-bottom:25px;
+}
+ol
+{
+  margin-top: 0;
+  margin-bottom: 2em;
+}
