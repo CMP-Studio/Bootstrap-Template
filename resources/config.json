@@ -34,7 +34,7 @@
     "@headings-font-family": "inherit",
     "@headings-font-weight": "500",
     "@headings-line-height": "1.1",
-    "@headings-color": "inherit",
+    "@headings-color": "@gray-base",
     "@icon-font-path": "\"../fonts/\"",
     "@icon-font-name": "\"glyphicons-halflings-regular\"",
     "@icon-font-svg-id": "\"glyphicons_halflingsregular\"",
@@ -64,7 +64,7 @@
     "@table-border-color": "#ddd",
     "@btn-font-weight": "normal",
     "@btn-default-color": "#333",
-    "@btn-default-bg": "#fff",
+    "@btn-default-bg": "transparent",
     "@btn-default-border": "#ccc",
     "@btn-primary-color": "#fff",
     "@btn-primary-bg": "@brand-primary",
@@ -163,7 +163,7 @@
     "@navbar-default-toggle-icon-bar-bg": "#888",
     "@navbar-default-toggle-border-color": "#ddd",
     "@navbar-inverse-color": "lighten(@gray-light, 15%)",
-    "@navbar-inverse-bg": "#222",
+    "@navbar-inverse-bg": "@brand-primary",
     "@navbar-inverse-border": "darken(@navbar-inverse-bg, 10%)",
     "@navbar-inverse-link-color": "lighten(@gray-light, 15%)",
     "@navbar-inverse-link-hover-color": "#fff",
@@ -430,5 +430,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=b75539b53a162833a1bc"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=b6a8521cd0d87d23a12c"
 }
