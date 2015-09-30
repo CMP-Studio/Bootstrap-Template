@@ -1,161 +1,17 @@
-/* Main tag overrides */
-body
+/* Colors */
+.darkgrey-bg
 {
-  background-color: rgb(248,248,248);
-
+  background-color:#3d3d3d;
 }
-a
+.grey-bg
 {
-  color: #1f496e
+  background-color: #777777
 }
-p{
-  line-height:22px;
-  font-size: 14px;
-  text-indent:0;
-  margin-bottom:25px;
-}
-ol
+.orange-bg
 {
-  margin-top: 0;
-  margin-bottom: 2em;
+  background-color:#de492f;
 }
-
-/* Button Colors */
-
-/* Change primary to Orange */
-.btn-primary {
-  color: #fff;
-  background-color: #DE492F;
-  border-color: #A33623;
-}
-.btn-primary:focus,
-.btn-primary.focus {
-  color: #fff;
-  background-color: #8F2F1E;
-  border-color: #40150D;
-}
-.btn-primary:hover {
-  color: #fff;
-  background-color: #8F2F1E;
-  border-color: #732618;
-}
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-  color: #fff;
-  background-color: #8F2F1E;
-  border-color: #732618;
-}
-.btn-primary:active:hover,
-.btn-primary.active:hover,
-.open > .dropdown-toggle.btn-primary:hover,
-.btn-primary:active:focus,
-.btn-primary.active:focus,
-.open > .dropdown-toggle.btn-primary:focus,
-.btn-primary:active.focus,
-.btn-primary.active.focus,
-.open > .dropdown-toggle.btn-primary.focus {
-  color: #fff;
-  background-color: #732618;
-  border-color: #40150D;
-}
-
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled.focus,
-.btn-primary[disabled].focus,
-fieldset[disabled] .btn-primary.focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-  background-color: #DE492F;
-  border-color: #A33623;
-}
-.btn-primary .badge {
-  color: #DE492F;
-  background-color: #fff;
-}
-
-/* Button Clear */
-
-.btn-clear {
-  background-color: transparent;
-  border-color: #CCC;
-}
-.btn-clear:focus,
-.btn-clear.focus {
-
-  background-color: rgba(0,0,0,0.3);
-  border-color: #CCC;
-}
-.btn-clear:hover {
-
-  background-color: rgba(0,0,0,0.3);
-  border-color: #CCC;
-}
-.btn-clear:active,
-.btn-clear.active,
-.open > .dropdown-toggle.btn-clear {
-
-  background-color: rgba(0,0,0,0.3);
-  border-color: #CCC;
-}
-.btn-clear:active:hover,
-.btn-clear.active:hover,
-.open > .dropdown-toggle.btn-clear:hover,
-.btn-clear:active:focus,
-.btn-clear.active:focus,
-.open > .dropdown-toggle.btn-clear:focus,
-.btn-clear:active.focus,
-.btn-clear.active.focus,
-.open > .dropdown-toggle.btn-clear.focus {
-
-  background-color: rgba(0,0,0,0.5);
-  border-color: #CCC;
-}
-
-.btn-clear.disabled,
-.btn-clear[disabled],
-fieldset[disabled] .btn-clear,
-.btn-clear.disabled:hover,
-.btn-clear[disabled]:hover,
-fieldset[disabled] .btn-clear:hover,
-.btn-clear.disabled:focus,
-.btn-clear[disabled]:focus,
-fieldset[disabled] .btn-clear:focus,
-.btn-clear.disabled.focus,
-.btn-clear[disabled].focus,
-fieldset[disabled] .btn-clear.focus,
-.btn-clear.disabled:active,
-.btn-clear[disabled]:active,
-fieldset[disabled] .btn-clear:active,
-.btn-clear.disabled.active,
-.btn-clear[disabled].active,
-fieldset[disabled] .btn-clear.active {
-  background-color: transparent;
-  border-color: #CCC;
-}
-.btn-clear .badge {
-  color: transparent;
-}
-
-/* Navbars */
-.navbar-primary
+.blue-bg
 {
-  background-color: #DE492F;
-  color:#fff;
-}
-.navbar-primary a
-{
-  color:#fff;
+  background-color:#4d6684;
 }
