@@ -15,3 +15,10 @@
 {
   background-color:#4d6684;
 }
+
+
+/* Navbars */
+.navbar-inverse
+{
+  background-image:none;
+}
