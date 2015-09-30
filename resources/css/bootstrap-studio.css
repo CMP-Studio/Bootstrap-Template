@@ -18,7 +18,7 @@
 
 
 /* Navbars */
-.navbar-inverse
+.navbar-default, .navbar-inverse
 {
   background-image:none;
 }
